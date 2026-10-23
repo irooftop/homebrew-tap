@@ -1,9 +1,9 @@
 cask "irooftop" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.3"
-  sha256 arm:   "4bf8d9c08f1713971817b6881eeadaf25f856e47d4b99f450cdbbbbf135980fe",
-         intel: "b62bb9a3c2dd1ad8a7c786d71312a5af18b9e5c2d5ef98bc31c4d4fd3e70b7da"
+  version "0.5.4"
+  sha256 arm:   "76641b5c1d7391d4abc0ee6b1a8de8a794171ad8d2d8bf0954396d885f90cde7",
+         intel: "209dfc34e1bcef98ee33efa36a582aca9d6c99bd8120a17ba698c99851b3c41a"
 
   url "https://github.com/irooftop/rooftop/releases/download/v#{version}/iRoof.top_#{version}_#{arch}.dmg"
   name "iRoof.top"
