@@ -1,8 +1,8 @@
 class Rooftop < Formula
   desc "Continue a Telegram or WhatsApp chat with an LLM that writes like the person"
   homepage "https://iroof.top/"
-  url "https://github.com/irooftop/rooftop/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "0f611b22659e1cc61d4226066282e668bd3f6a8b53c928f1ec9fae5b072a3471"
+  url "https://github.com/irooftop/rooftop/archive/refs/tags/v0.5.2.tar.gz"
+  sha256 "111b6210d2e98d2748e2c82f0fd753d9b029f05174ec299834e9aa9b192128ed"
   license "MIT"
   head "https://github.com/irooftop/rooftop.git", branch: "main"
 
