@@ -1,9 +1,9 @@
 cask "irooftop" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.0"
-  sha256 arm:   "c7d080e96f9f720f2e376ec5a271a9dd9ac31d980caafb2f81fdb17890a52dd0",
-         intel: "dd8d57890617b718bb8dcc21392d701d70fbaacb41fb9b28516ba5f75fbdaa49"
+  version "0.5.1"
+  sha256 arm:   "55efa5c7b96ae6e4439a5c2a66b58067db8d39aa2d9dbf4b057526245f255b18",
+         intel: "0577a5f2d423371d001e4813e0eb3908f1f71cbf7abc5429a934ff4bcd940027"
 
   url "https://github.com/irooftop/rooftop/releases/download/v#{version}/iRoof.top_#{version}_#{arch}.dmg"
   name "iRoof.top"
@@ -28,7 +28,8 @@ cask "irooftop" do
   ]
 
   caveats <<~EOS
-    iRoof.top is not notarized by Apple yet. On the first launch, open it from
-    Finder with right-click → Open, or allow it in System Settings → Privacy & Security.
+    iRoof.top is not notarized by Apple yet. Open it once, then allow it in
+    System Settings → Privacy & Security → Open Anyway. Step by step:
+    https://irooftop.github.io/rooftop/guide/unsigned-apps
   EOS
 end
