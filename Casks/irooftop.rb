@@ -1,9 +1,9 @@
 cask "irooftop" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.9"
-  sha256 arm:   "9323b781e35ff95bf03ce2495abd1faa6da3cb8aeba4dd53a4220921c0f58be1",
-         intel: "16aa2f024850ce3055045e5097c4017eaf0db89835320ac8ca7353a2b962966a"
+  version "0.5.10"
+  sha256 arm:   "e65b5f39760575f5d6976f77b41e68b24fe3d1440c7f90817f9019dc7dac345e",
+         intel: "35e6236a395480d604898097ce3c674a66157b1e71ed21181614eb0e458dc2b1"
 
   url "https://github.com/irooftop/rooftop/releases/download/v#{version}/iRoof.top_#{version}_#{arch}.dmg"
   name "iRoof.top"
@@ -30,6 +30,6 @@ cask "irooftop" do
   caveats <<~EOS
     iRoof.top is not notarized by Apple yet. Open it once, then allow it in
     System Settings → Privacy & Security → Open Anyway. Step by step:
-    https://irooftop.github.io/rooftop/guide/unsigned-apps
+    https://irooftop.github.io/guide/unsigned-apps
   EOS
 end
